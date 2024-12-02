@@ -6,7 +6,8 @@ def main():
     hello(users[0]['name'])
     read_users(users)
     # add_user(users)
-    remove_user(users)
+    # remove_user(users)
+    update_user(users)
     read_users(users)
 
 
