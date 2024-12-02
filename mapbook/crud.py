@@ -24,6 +24,7 @@ def remove_user(userlist:list)->None:
             print(f'usuwam: {user}')
             userlist.remove(user)
 
+
 def update_user(userlist:list)->None:
     user_to_find:str=input('Podaj imię użytkownika do aktualizacji:')
     for user in userlist:

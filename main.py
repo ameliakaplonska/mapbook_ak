@@ -1,5 +1,5 @@
 from mapbook.users import users
-from mapbook.crud import hello, read_users, add_user
+from mapbook.crud import hello, read_users, add_user, update_user
 
 
 def main():
