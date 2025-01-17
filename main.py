@@ -57,6 +57,7 @@ def show_users():
         listbox_lista_obiektow.insert(idx, f'{user[0]} {user[1]} {user[2]} {user[3]}')
 
 
+
 def add_user() -> None:
     name = entry_imie.get()
     surname = entry_nazwisko.get()
